@@ -1,5 +1,6 @@
 db = new Mongo().getDB("mydatabase");
 
+
 db.students.insertMany([
     { studentCode: "n035", firstName: "chatlada", lastName: "wongkanyon", age: 20, email: "ngaija2547@gmail.com" },
     { studentCode: "n035", firstName: "ncchat", lastName: "wiwiwi", age: 20, email: "oioioi@gmail.com"},
